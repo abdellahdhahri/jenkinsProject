@@ -23,7 +23,7 @@ public class HelloController {
 	public String sayBonjour() {
 		return "bonjour from controller";
 	}
-	@GetMapping("/bonjour")
+	@GetMapping("/bhi2")
 	public String sayHi() {
 		return "Hi from controller";
 	}
