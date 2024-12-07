@@ -23,6 +23,10 @@ public class HelloController {
 	public String sayBonjour() {
 		return "bonjour from controller";
 	}
+	@GetMapping("/bonjour")
+	public String sayHi() {
+		return "Hi from controller";
+	}
 	
 
 }
