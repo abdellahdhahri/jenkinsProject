@@ -19,6 +19,10 @@ public class HelloController {
 	public String sayHello() {
 		return "hello from controller";
 	}
+	@GetMapping("/bonjour")
+	public String sayBonjour() {
+		return "bonjour from controller";
+	}
 	
 
 }
