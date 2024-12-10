@@ -3,7 +3,7 @@ pipeline {
     
     tools{ 
         jdk 'JDK19' 
-        maven 'apache-maven-3.6.1'
+       
 
     }
     
