@@ -9,7 +9,7 @@ pipeline {
     
     environment { 
         JAVA_HOME = 'C:\\Program Files\\Java\\jdk-19'
-        M2 = 'D:\apache-maven-3.9.9\bin'
+        M2 = 'D:\\apache-maven-3.9.9\\bin'
     }
     
     stages {
