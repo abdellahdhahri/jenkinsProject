@@ -31,6 +31,10 @@ public class HelloController {
 	public String sayHi() {
 		return "Hi from controller";
 	}
+	@GetMapping("/bhi23")
+	public String sayHiii() {
+		return "Hi from controller";
+	}
 	
 
 }
