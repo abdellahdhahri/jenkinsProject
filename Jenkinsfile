@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools{ 
-        jdk 'jdk8' 
+        jdk 'JDK19' 
     }
     
     environment { 
