@@ -3,10 +3,13 @@ pipeline {
     
     tools{ 
         jdk 'JDK19' 
+        maven 'apache-maven-3.6.1'
+
     }
     
     environment { 
-        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-19' 
+        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-19'
+        M2 = 'D:\apache-maven-3.9.9\bin'
     }
     
     stages {
