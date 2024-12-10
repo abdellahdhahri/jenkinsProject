@@ -10,6 +10,11 @@ pipeline {
     }
     
     stages {
+      stage ('clone repo') {
+            steps {
+               git branch: 'main', url: 'https://github.com/abdellahdhahri/jenkinsProject.git'
+            }
+        }
         stage ('Compile Stage') {
             steps {
                 withMaven(maven : 'apache-maven-3.9.9') {
